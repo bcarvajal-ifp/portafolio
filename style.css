@@ -1,0 +1,145 @@
+:root{
+    /* Aquí va les variables */
+}
+
+* {
+    /* Aquí hi va el reset */
+
+        margin: 0;
+        padding: 0;
+        border: 0;
+}
+
+@font-face {
+    /* Aquí hi van les fonts personalitzats */
+} 
+    /* Aquí hi van les propietats generals */
+
+body{
+    background: black;
+}
+
+h1{
+    width: auto;
+    height: 300px;
+    text-align: center;
+    margin-top: -50px;
+    background: white;
+    color: blue;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+} 
+h2{
+    width:auto;
+    color: black;
+    text-align: center;
+    margin-top: -100px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    overflow: hidden;
+    margin:auto;
+    text-align: center;
+    transition: 0.1s;
+}
+li{
+    
+    height:25rem;
+    border-radius: 10%; 
+    background: blue;
+    margin: 2rem;
+    list-style-type: none;
+    float: left;
+    color: white;
+    margin-top: 135px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25rem;
+} 
+li:hover{
+    opacity: 50%;
+}                                                
+.pastilla{
+    width:100%; 
+    height:200px;
+    text-align:center;
+    background:white;
+    margin-top:90px;
+}
+.icono{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin-top:-150px;
+}
+.icono2{
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    margin-top:-100px;
+}
+.icono3{
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+    margin-top:50px;
+}
+.icono4{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    margin-top:0;
+}
+
+
+
+
+/* Aquí hi van propietats responsives */
+
+@media (max-width:544px)
+
+/* Aquí hi va la versió mòbils */
+
+{
+    li{
+        width: 85%;
+    }
+    ul{
+        width: 100% ;
+    }
+}
+
+@media (min-width:544px) and (max-width:1088px)
+{
+    ul{
+        max-width: 34rem ;
+    }
+    li{
+        width: 30rem;
+    }
+}
+
+
+@media (min-width:1088px) and (max-width:1632px)
+{
+    ul{
+        max-width: 68rem ;
+    }
+    li{
+        width: 30rem;
+    }
+}
+
+
+@media (min-width:1632px)
+{
+    ul{
+        max-width: 102rem ;
+    }
+    li{
+        width: 30rem;
+    }
+}

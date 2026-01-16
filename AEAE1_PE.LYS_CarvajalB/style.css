@@ -1,0 +1,44 @@
+body{
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+
+
+}
+.logo{
+    height:55px ;
+    width: 70px ;
+    background-image: url(./img/logo.png);
+    background-size:cover;
+    margin-left: 10px;
+}
+.menu{
+    height: 40px;
+    background-color: red;
+
+
+}
+.documentals{
+    height: 50px;
+    background-color:blue; 
+}
+.pelicules{
+
+}
+.series{
+
+}
+.imatges{
+    height: 250px;
+    width: 175px;
+    margin-top: 60px;
+    margin-left: 10px;
+    border-radius: 5%;
+    background-image: url(./img/1982Koyaanisqatsi.jpg);
+}
+.post{
+    height: 30px;
+    width: 150px;
+    margin-top: 60px;
+    background-color: white;
+}

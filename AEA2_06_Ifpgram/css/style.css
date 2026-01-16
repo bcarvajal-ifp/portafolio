@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenidor{
+    width: 1716px;
+    margin: auto;
+}
+.nav{
+       height: 166px; 
+       background-color: white;
+}
+.friends{
+       height: 180px; 
+       width: 1300px;
+       margin: auto;
+}
+.pics{
+       height: 1860px; 
+}
+.logo{
+    width: 224px;
+    height: 65px;
+    background-color: yellow ;
+    float: left;
+    background-image: url(../img/logo.jpg);
+    margin: 50px 0 0 0;
+}
+.menu{
+    width: 333px;
+    height: 63px;
+    float: left;
+    
+    margin: 50px 0 0 486px;
+
+}
+.menu ul{
+    margin: 0;
+}
+.menu ul li{
+    width: 40px;
+    height: 40px;
+    margin: 0 12px;
+    float: left;
+    display: block;
+    background-image: url(../img/menu.jpg);
+}
+.menu ul li:hover{
+    opacity: 0.6;
+}
+.inici{
+    background-position: -22px -10px;
+}
+.cerca{
+    background-position:-106px -10px;
+}
+.directes{
+    background-position:-190px -10px;
+}
+.favorits{
+    background-position:-275px -10px;
+}
+
+.perfil{
+    width: 80px;
+    height: 120px;
+    margin: 20px;
+    float: left;
+    text-align: center;
+    opacity: 0.6;
+
+
+}
+.foto{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(../img/perfil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: brown 5px solid;
+    box-shadow:  inset 0px 0px 2px white;
+}
+.perfil:hover {
+    opacity: 1;
+    
+}
+.afegir{
+    width: 20px;
+    height: 20px;
+    background: blue;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: relative;
+    left: 65px;
+    top: -80px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+.Joel{
+    background-image: url(../img/joel.jpg);
+}
+.Alex{
+    background-image: url(../img/alex.jpg);
+}
+.Pol{
+    background-image: url(../img/pol.jpg);
+}
+.Adria{
+    background-image: url(../img/adria.jpg);
+}
+.Liz{
+    background-image: url(../img/liz.jpg);
+}
+.Silvia{
+    background-image: url(../img/silvia.jpg);
+}
+.Miriam{
+    background-image: url(../img/mariam.jpg);
+}
+.Valeria{
+    background-image: url(../img/valeria.jpg);
+}
+.Alejandro{
+    background-image: url(../img/alejandro.jpg);
+
+}
+.post{
+    width: 536px;
+    height: 620px;
+    float: left;
+    margin: 11px;
+}
+.imatge{
+    width: 536px;
+    height: 536px;
+    background: red;
+    background-image: url(../img/ifpagram_ok_2_13.jpg);
+
+}
+.info{
+    width: 268px;
+    height: 84px;
+    float:left ;
+
+
+}
+.reaccions{
+    width: 268px;
+    height: 84px;
+    float:left ;
+}
+.autor{
+    width: 50px;
+    height: 50px;
+    background: blue;
+    margin: 10px;
+    float: left;
+    background-image: url(../img/alex.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    float: left;
+}
+.usuari{
+    height: 25px;
+    width: 198px;
+    margin: 10px 0 0 0;
+    float: left;
+}
+.quan{
+    height: 25px;
+    width: 198px;
+    margin: 0;
+    float: left;
+    color: gray;
+    font-size: 12px;
+}
+.likes{
+    height: 25px;
+    width: 65px;
+    margin-left: 90px;
+    float: left;
+    margin-top: 10px;
+}
+.cors{
+    height: 25px;
+    width: 75px;
+    margin-top: 10px;
+    background: blue;
+    float: left;
+    background-image: url(../img/menu.jpg);
+    background-position:-240px -19px;
+
+
+}
+.mes{
+    height: 25px;
+    width: 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+}
+.i1{
+    background-image: url(../img/ifpagram_ok_2_13.jpg);
+}
+.i2{
+    background-image: url(../img/ifpagram_ok_2_15.jpg);
+}
+.i3{
+    background-image: url(../img/ifpagram_ok_2_17.jpg);
+}
+.i4{
+    background-image: url(../img/ifpagram_ok_2_22.jpg);
+}
+.i5{
+    background-image: url(../img/ifpagram_ok_2_23.jpg);
+}
+.i6{
+    background-image: url(../img/ifpagram_ok_2_24.jpg);
+}
+.i7{
+    background-image: url(../img/ifpagram_ok_2_28.jpg);
+}
+.i8{
+    background-image: url(../img/ifpagram_ok_2_29.jpg);
+}
+.i9{
+    background-image: url(../img/ifpagram_ok_2_30.jpg);
+}
