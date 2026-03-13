@@ -91,12 +91,61 @@ a:link{
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
 }
+.JS01{
+    background-image: url();
+    opacity: 100%;
+    box-shadow: inset 0 0 40px white;
+}
+.JS02{
+    background-image: url();
+    opacity: 100%;
+    box-shadow: inset 0 0 40px white;
+}
+.JS03{
+    background-image: url();
+    opacity: 100%;
+    box-shadow: inset 0 0 40px white;
+}
+.JS04{
+    background-image: url();
+    opacity: 100%;
+    box-shadow: inset 0 0 40px white;
+}
+.JS05{
+    background-image: url();
+    opacity: 100%;
+    box-shadow: inset 0 0 40px white;
+}
+.JS06{
+    background-image: url();
+    opacity: 100%;
+    box-shadow: inset 0 0 40px white;
+}
+.JS07{
+    background-image: url();
+    opacity: 100%;
+    box-shadow: inset 0 0 40px white;
+}
+.JS08{
+    background-image: url();
+    opacity: 100%;
+    box-shadow: inset 0 0 40px white;
+}
+.JS09{
+    background-image: url();
+    opacity: 100%;
+    box-shadow: inset 0 0 40px white;
+}
+
+
+
 ul{
     overflow: hidden;
     margin:auto;
     text-align: center;
     transition: 0.1s;
 }
+
 li{
     
     height:25rem;
@@ -111,8 +160,9 @@ li{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 42rem;
 } 
+
 li:hover{
-    opacity: 50%;
+    opacity: 60%;
 }                                                
 .pastilla{
     width:100%; 

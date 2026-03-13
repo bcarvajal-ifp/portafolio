@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS08</title>
+    <style>
+        body{
+            .cub{
+                width: 80px;
+                height: 80px;
+                transition: 1s;
+                position: relative;
+                transform-style: preserve-3d;
+            }
+
+            .cara {
+                width: 80px;
+                height: 80px;
+                font-size: 80px;
+                text-align: center;
+                line-height: 80px;
+                margin: auto;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+
+            .taronja {
+                background: orange;
+                transform-origin: left;
+                transform: translateZ(-80px);
+            }
+
+            .groga {
+                background: yellow;
+                transform: rotateX(90deg);
+                transform-origin: bottom;
+            }
+
+            .vermella {
+                display: block;
+                background: red;
+                transform: rotateY(90deg);
+                transform-origin: left;
+            }
+
+            .rosa {
+                background: pink;
+                transform: rotateY(-90deg);
+                transform-origin: right;
+            }
+
+            .lila {
+                background: violet;
+                transform: rotateX(-90deg);
+                transform-origin: top;
+            }
+
+            .verdra {
+                background: greenyellow;
+                transform: rotateX(0deg);
+            }
+
+            .contenidor {
+                margin: 10rem auto;
+                width: 80px;
+                height: 80px;
+                -webkit-perspective: 320px;
+                perspective: 160px;
+            }
+
+            .cub:hover {
+                transform: rotateX(180deg) rotateY(90deg);
+            }
+            .joystick{
+                position: relative;
+                background: purple;
+                height: 12rem;
+                width: 12rem;
+                margin: auto;
+                color: white;
+                font-size: 3rem;
+                text-align: center;
+                font-family: sans-serif ;
+            }
+            .amunt{
+                width: 4rem;
+                height: 4rem;
+                background: red;
+                margin: auto;
+                position: relative;
+
+            }
+            .avall{
+                width: 4rem;
+                height: 4rem;
+                background: yellow;
+               
+            }
+            .esquerra{
+                width: 4rem;
+                height: 4rem;
+                background: green;
+                margin: auto;
+                position: relative;
+            }
+            .dreta{
+                width: 4rem;
+                height: 4rem;
+                background: skyblue;
+                margin: -8rem 8rem;
+                position: relative;
+            } 
+        }
+    </style>
+</head>
+<body>
+    <div class="contenidor">
+        <div class="cub">
+            <div class="cara taronja">A</div>
+            <div class="cara groga" >B</div>
+            <div class="cara vermella">C</div>
+            <div class="cara rosa">D</div>
+            <div class="cara lila">E</div>
+            <div class="cara verdra">F</div>
+        </div>
+    </div>
+    <div class="joystick">
+            <div class="boto amunt">^</div>
+            <div class="boto avall">></div>
+            <div class="boto esquerra">v</div>
+            <div class="boto dreta"><</div>
+    </div>
+</body>
+</html>

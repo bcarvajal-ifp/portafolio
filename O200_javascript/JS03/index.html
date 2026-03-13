@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS03</title>
+    <style>
+        body{
+            font-size: 3rem;
+            font-family: Helvetica;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+        var sortir = confirm("seguro que vols tancar l'aplicació?");
+
+        if (sortir == true) {
+            document.write("tancant l'aplicació");
+            document.body.style.backgroundColor="#333"
+            document.body.style.color="#FFF";
+        }
+        else{
+            document.write("Continuar");
+            document.body.style.backgroundColor="#555"
+            document.body.style.color="#65f8d";
+        }
+    </script>
+</body>
+</html>
