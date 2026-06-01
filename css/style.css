@@ -24,7 +24,7 @@ h1{
     height: 300px;
     text-align: center;
     margin-top: -50px;
-    background: white;
+    background:white;
     color:rgba(11, 0, 166, 1);
     font-size: 80px;
     font-family: Arial, Helvetica, sans-serif;
@@ -40,56 +40,73 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
 }
 a:visited{
-    color: white;
-}
-a:link{
-    color:white;
-    text-decoration: none;
+    color: yellow;
+
 }
 .horari{
-    background-image: url();
+    background-image: url(../img/horario.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
+    background-position: center;
+
+
 }
 .feedly{
-    background-image: url();
+    background-image: url(../img/feedly.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
+
 }
 .Watchmen{
-    background-image: url();
+    background-image: url(../img/watchmen.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
+    background-position: center;
+
 }
 .dames{
-    background-image: url();
+    background-image: url(../img/dames.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
+    background-position: center;
+
 }
 .Ifpgram{
-    background-image: url();
+    background-image: url(../img/ifpgram.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
 }
 .Photoshop{
-    background-image: url();
+    background-image: url(../img/photoshop.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
+    background-position: center;
 }
 .Floreta{
-    background-image: url();
+    background-image: url(../img/floreta.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
 }
 .Floats{
-    background-image: url();
+    background-image: url(../img/floats.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
+    background-position: center;
 }
 .Llibre{
-    background-image: url();
+    background-image: url(../img/llibre.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
+    background-position: center;
 }
 .JS01{
     background-image: url();
@@ -149,14 +166,14 @@ ul{
 li{
     
     height:25rem;
-    border-radius: 15%; 
     background: blue;
+    border-radius: 3%;
     margin: 2rem;
     list-style-type: none;
     float: left;
     color: white;
-    margin-top:140px;
-    font-size: 40px;
+    margin-top:200px;
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 42rem;
 } 
@@ -178,11 +195,6 @@ li:hover{
     text-align:center;
 }
 
-.pastilla{
-    width:100%;
-    height:200px;
-    background:white;
-}
 
 .footer-info{
     margin-top:-150px;
