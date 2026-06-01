@@ -18,6 +18,9 @@
 body{
     background: radial-gradient(circle,rgba(0, 0, 0, 1) 34%, rgba(11, 0, 166, 1) 100%);
 }
+.cos{
+    width: auto;
+}
 
 h1{
     width: auto;
@@ -39,8 +42,8 @@ h2{
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
-a:visited{
-    color: yellow;
+:visited{
+    color:White;
 
 }
 .horari{
@@ -109,61 +112,59 @@ a:visited{
     background-position: center;
 }
 .JS01{
-    background-image: url();
+    background-image: url(../img/js.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
 }
 .JS02{
-    background-image: url();
+    background-image: url(../img/js.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
 }
 .JS03{
-    background-image: url();
+    background-image: url(../img/js.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
 }
 .JS04{
-    background-image: url();
+    background-image: url(../img/js.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
 }
 .JS05{
-    background-image: url();
+    background-image: url(../img/js.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
 }
 .JS06{
-    background-image: url();
+    background-image: url(../img/js.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
 }
 .JS07{
-    background-image: url();
+    background-image: url(../img/js.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
 }
 .JS08{
-    background-image: url();
+    background-image: url(../img/js.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
 }
 .JS09{
-    background-image: url();
+    background-image: url(../img/js.png);
     opacity: 100%;
     box-shadow: inset 0 0 40px white;
+    background-size: cover;
 }
-
-.contenedor {
-  display: flex;
-  flex-direction: column;
-}
-.cuadro1 {
-  width: 300px;
-  height: 150px;
-  background-color: lightblue;
-}
-
 
 ul{
     overflow: hidden;
@@ -174,7 +175,7 @@ ul{
 
 li{
     
-    height:25rem;
+    height:30rem;
     background: blue;
     border-radius: 3%;
     margin: 2rem;
@@ -184,24 +185,23 @@ li{
     margin-top:200px;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 42rem;
+    line-height: 70rem;
+    
 } 
 
 li:hover{
-    opacity: 60%;
+    opacity: 65%;
+    
 }                                                
-.pastilla{
-    width:100%; 
-    height:200px;
-    text-align:center;
-    background:white;
-    margin-top:150px;
-}
+
 
 .peu{
-    width:100%;
-    margin-top:150px;
+
     text-align:center;
+    width:20px; 
+    height:200px;
+    background:white;
+    margin-top:300px;
 }
 
 
@@ -209,17 +209,13 @@ li:hover{
     margin-top:-150px;
     display:flex;
     justify-content:space-around;
-    color:black;
+    color: blue;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-info h3{
     font-size:22px;
     margin-bottom:10px;
-}
-
-.footer-info p{
-    font-size:16px;
 }
 
 
